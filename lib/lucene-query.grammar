@@ -155,6 +155,7 @@ field_exp
                     ? "<implicit>"
                     : fieldname           
             }; 
+        fieldexp['offset'] = offset();
             
         for(var key in term)
             fieldexp[key] = term[key];
